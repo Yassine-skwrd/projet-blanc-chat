@@ -21,4 +21,17 @@ class HomeController extends Controller
         //return view('home');
         return view('home', compact('messages'));
     }
+
+
+    // Fonction pour afficher les différentes pages
+    
+    public function cgu():View{
+        return view ('cgu');
+    }
+    public function a_propos(): View{
+        return view ('a-propos');
+    }
+    public function contact(): View{
+        return view ('contact');
+    }
 }
