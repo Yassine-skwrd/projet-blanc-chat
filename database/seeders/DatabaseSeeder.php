@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
             MessageSeeder::class,
             ConversationSeeder::class,
             TestSeeder::class,
+            GroupeSeeder::class,
         ]);
     }
 }
